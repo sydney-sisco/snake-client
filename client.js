@@ -19,6 +19,9 @@ const connect = function() {
     console.log('Successfully connected to game server');
 
     conn.write('Name: SYD');
+
+    // setInterval(function(){ conn.write('Move: down'); }, 50);
+    // setInterval(function(){ conn.write('Move: left'); }, 50);
   })
 
   return conn;
