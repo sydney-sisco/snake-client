@@ -25,19 +25,15 @@ const handleUserInput = (key) => {
 
   switch (key) {
     case 'w':
-      // console.log('up');
       connection.write('Move: up');
       break;
     case 'a':
-      // console.log('left');
       connection.write('Move: left');
       break;
     case 's':
-      // console.log('down');
       connection.write('Move: down');
       break;
     case 'd':
-      // console.log('right');
       connection.write('Move: right');
       break;
     case '1':
